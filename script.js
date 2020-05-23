@@ -19,6 +19,7 @@ $(document).ready(function() {
     $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
   });
 
+
   /* Navigation scroll */
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -56,6 +57,12 @@ $(document).ready(function() {
 
   $('.js--wp-4').waypoint(function (direction) {
     $('.js--wp-4').addClass('animated pulse');
+  }, {
+    offset: '50%'
+  });
+
+  $('.js--iamhungry').waypoint(function () {
+    $('.js--iamhungry').addClass('animated rubberBand');
   }, {
     offset: '50%'
   });

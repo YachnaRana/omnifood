@@ -55,7 +55,10 @@
       margin: 0 0 4% 0;
     }
     .main-nav{ display: none; }
-    .mobile-nav-icon{display: inline-block; }
+    .mobile-nav-icon{
+      display: inline-block;
+      margin: 9px 0;
+     }
     .main-nav{
       float: left;
       margin-top: 35px;
